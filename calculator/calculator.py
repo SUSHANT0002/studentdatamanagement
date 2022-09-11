@@ -3,7 +3,7 @@ from tkinter import messagebox
 import math
 
 screen = Tk()
-screen.title('calculator-1')
+screen.title('calculator')
 screen.maxsize(height=373,width=335)
 screen.minsize(height=373,width=265)
 screen.configure(bg='black')

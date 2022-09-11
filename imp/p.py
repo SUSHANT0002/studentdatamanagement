@@ -1,0 +1,9 @@
+t=int(input())
+while(t>0):
+    a,b=map(int,input().split())
+    if(b>a):
+        c=b-1
+        rent=int(c/a)
+        print(rent)
+    else:
+        print("0")

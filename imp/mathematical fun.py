@@ -1,15 +1,4 @@
-# ##################                                              whether the no is even or odd
-# a = int(input('Enter a no.:-'))
-# if (a % 2) == 0:
-#     print(a,' is even')
-# else:
-#     print(a,' is odd')
-# ###########################################                     simple intrest
-# p = int(input('Enter principal amount:-'))
-# r = int(input('Enter rate of intrest:-'))
-# t = int(input('Enter time period in months:-'))
-# SI = (p*r*t)/100
-# print(SI)
+
 #############################################                     fibonacci series
 # n = int(input("How many terms? "))
 # n1, n2 = 0, 1
@@ -43,23 +32,11 @@
 #    digit = temp % 10
 #    sum += digit ** 3
 #    temp //= 10
-#
+
 # if num == sum:
 #    print(num,"is an Armstrong number")
 # else:
 #    print(num,"is not an Armstrong number")
-########################################   palindrome no.       141         525
-# num=int(input("Enter a number:"))
-# temp=num
-# rev=0
-# while(num>0):
-#     dig=num%10
-#     rev=rev*10+dig
-#     num=num//10
-# if(temp==rev):
-#     print("The number is palindrome!")
-# else:
-#     print("Not a palindrome!")
 # ###########################################      factorial of a number
 # num =int(input("Enter a number:"))
 # factorial = 1
@@ -73,14 +50,10 @@
 #    print("The factorial of",num,"is",factorial)
 #
 # ########################################           reverse a no.
-# num = 1234
-# reversed_num = 0
-# while num != 0:
-#     digit = num % 10
-#     reversed_num = reversed_num * 10 + digit
-#     num //= 10
-# print("Reversed Number: " + str(reversed_num))
-#####################################, to find second max no.
+# num = str(input('enter a number:-'))
+# print(num[::-1])
+
+# #####################################, to find second max no.
 # list1=[12,21,3,34,55,64,35]
 # mx=max(list1[0],list1[1])
 # secondmax=min(list1[0],list1[1])
@@ -92,7 +65,13 @@
 #     elif list1[i]>secondmax and mx!=list1[i]:
 #         secondmax=list1[i]
 # print('second max number is',secondmax)
-#
+########################################   palindrome no.      121
+# a =str(input ('enter a number:-'))
+# if a[0:]==a[::-1]:
+#     print('it is a palindrome number')
+# else:
+#     print('it is not a palindrome number')
+
 
 
 

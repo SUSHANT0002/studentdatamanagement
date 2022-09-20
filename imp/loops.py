@@ -15,7 +15,7 @@
 ######################################### using for loop multiplication  table
 # i=1
 # n=int(input('Enter the number:'))
-# for i in range(1,11):
+# for i in range(1,n):
 #     print(i*n)
 ###############################
 # for i in range(4):

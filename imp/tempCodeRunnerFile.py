@@ -1,2 +1,2 @@
-if a[0:]==a[::-1]:
-    print('it is a palindrome number')
+('D:\python\projects\imp\PH.png')
+        # img1=img1.resize(

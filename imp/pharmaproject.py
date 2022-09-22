@@ -18,7 +18,7 @@ class PharmacyMangementSystem:
                             bd=15,relief=RIDGE,bg='SpringGreen4',fg='white',font=('times new roman',50,'bold'),padx=2,pady=4)
         lbltitle.pack(side=TOP,fill=X)
         #################################          image
-        img1=Image.open('C:/Users/DELL/PycharmProjects/pythonProject/VS.py/PH.png')
+        img1=Image.config('D:\python\projects\imp\PH.png')
         img1=img1.resize((80,80),Image.ANTIALIAS)
         # self.photoimg1=ImageTk.PhotoImage(img1)
         btn1=Button(self.root,image=self.photoimg1,borderwidth=0)

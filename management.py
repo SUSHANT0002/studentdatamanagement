@@ -551,13 +551,16 @@ def connectdb():
     dbroot.config(bg='cornsilk2')
     dbroot.resizable(False,False)
     ########inside db root box
-    idlable1 = Label(dbroot,text='Enter host ',bg='cornsilk2',font=('times',13,'bold'),width=8,anchor='w',bd=4)
+    idlable1 = Label(dbroot,text='Enter host ',bg='cornsilk2',font=('times',13,'bold')
+    ,width=8,anchor='w',bd=4)
     idlable1.place(x=0,y=10)
 
-    userlable1 = Label(dbroot, text='User Name ', bg='cornsilk2', font=('times', 13, 'bold'), width=8,anchor='w',bd=4)
+    userlable1 = Label(dbroot, text='User Name ', bg='cornsilk2', font=('times', 13, 'bold'), 
+    width=8,anchor='w',bd=4)
     userlable1.place(x=0, y=40)
 
-    passwordlable1 = Label(dbroot, text='Password', bg='cornsilk2', font=('times', 13, 'bold'), width=8,bd=4,anchor='w')
+    passwordlable1 = Label(dbroot, text='Password', bg='cornsilk2', font=('times', 13, 'bold'), 
+    width=8,bd=4,anchor='w')
     passwordlable1.place(x=0, y=70)
 ##################################### entries of dbroot
     hostval = StringVar()
@@ -574,12 +577,14 @@ def connectdb():
     entry3 = Entry(dbroot, font=('time', 14, 'bold'), width=16,bg='peach puff',textvariable= passval)
     entry3.place(x=108, y=70)
 
-    submitbtn = Button(dbroot,text='S U B M I T',bd=5,font=('ariel',10,"italic bold"),width=15,bg='cornsilk2',command=submitdb,activebackground='black',activeforeground='white')
+    submitbtn = Button(dbroot,text='S U B M I T',bd=5,font=('ariel',10,"italic bold"),width=15,
+    bg='cornsilk2',command=submitdb,activebackground='black',activeforeground='white')
     submitbtn.place(x=90,y=97)
 
     dbroot.mainloop()
-##############################################################################connect to data button command connects dbroot
-connectbtn = Button(root,text="Log In To Database ~> ",bg='gold',bd=7,activeforeground='white',font=('ariel',8,'bold'),activebackground='black',command=connectdb)
+#######################connect to data button command connects dbroot
+connectbtn = Button(root,text="Log In To Database ~> ",bg='gold',bd=7,activeforeground='white',
+font=('ariel',8,'bold'),activebackground='black',command=connectdb)
 connectbtn.place(x=750,y=550,width=150,height=40)
 
 root.mainloop()
